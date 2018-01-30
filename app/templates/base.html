@@ -5,6 +5,7 @@
 {% block head %}
   {{ super() }}
   <link rel="icon" href="{{ url_for('static',filename='ca.png') }}" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
 {% endblock %}
 
 {% block navbar %}
