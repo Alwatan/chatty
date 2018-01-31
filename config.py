@@ -12,6 +12,7 @@ class Config:
     CHATTY_MAIL_SENDER = 'Chatty Admin <pugudean@gmail.com>'
     CHATTY_ADMIN = os.environ.get('CHATTY_ADMIN')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
+    CHATTY_POSTS_PER_PAGE = 20
 
     @staticmethod
     def init_app(app):
